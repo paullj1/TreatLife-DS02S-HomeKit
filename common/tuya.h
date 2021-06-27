@@ -19,6 +19,7 @@
 #define TUYA_WIFI_CONFIG_MODE  0x01
 #define TUYA_WIFI_DISCONNECTED 0x02
 #define TUYA_WIFI_CONNECTED    0x03
+#define TUYA_WIFI_CLOUD        0x04
 
 #define TUYA_TYPE_BOOL         0x01
 #define TUYA_TYPE_VALUE        0x02
@@ -36,4 +37,3 @@ struct TUYA {
 } Tuya;
 
 #endif
-
